@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dlg.menue.HauptmenueController">
+   <children>
+      <AnchorPane layoutX="-162.0" layoutY="-147.0" prefHeight="508.0" prefWidth="750.0">
+         <children>
+            <Button fx:id="bt_patientenErstellen" layoutX="240.0" layoutY="194.0" mnemonicParsing="false" onAction="#bt_patientenErstellenClicked" text="Patienten anlegen" />
+            <Button fx:id="bt_vakzineErstellen" layoutX="431.0" layoutY="194.0" mnemonicParsing="false" onAction="#bt_vakzineErstellenClicked" text="Chargenverwaltung" />
+            <Button fx:id="bt_terminAnlegen" layoutX="257.0" layoutY="254.0" mnemonicParsing="false" onAction="#bt_terminAnlegenClicked" text="Termin anlegen" />
+            <Button fx:id="bt_impfungEintragen" layoutX="239.0" layoutY="304.0" mnemonicParsing="false" onAction="#bt_impfungEintrageClicked" text="Impfung eintragen" />
+            <Button fx:id="bt_beenden" layoutX="491.0" layoutY="304.0" mnemonicParsing="false" onAction="#bt_beendenClicked" text="beenden" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
